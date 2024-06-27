@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title-1 {
+    position: relative;
+    font-size: clamp(1.5rem, 0.536rem + 2.679vw, 2.25rem);
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+.title-1::before {
+    content: "";
+    background-color: #222e84;
+    height: 3px;
+    width: 65px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+}
+
+.title-2{
+    font-size: clamp(1.25rem, 0.286rem + 2.679vw, 2rem);
+    font-weight: 700;
+}
+
+.no-scroll {
+    overflow: hidden;
+
+    @media (min-width: 576px) {
+        overflow:scroll;
+    }
+}
+
+.link-1{
+    display: block;
+    color: #2e22da;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.link-1:hover {
+    color: #444484;
+}
+
+.none {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 3px; /* Ширина полосы прокрутки */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Цвет фона полосы прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Цвет бегунка */
+    border-radius: 10px; /* Закругленные углы бегунка */
+}

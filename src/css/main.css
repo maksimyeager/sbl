@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* Base */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.title-1 {
+  position: relative;
+  font-size: clamp(1.5rem, 0.536rem + 2.679vw, 2.25rem);
+  font-weight: 700;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dadada;
+}
+
+.title-1::before {
+  content: "";
+  background-color: #222e84;
+  height: 3px;
+  width: 65px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+
+.title-2 {
+  font-size: clamp(1.25rem, 0.286rem + 2.679vw, 2rem);
+  font-weight: 700;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+@media (min-width: 576px) {
+  .no-scroll {
+    overflow: scroll;
+  }
+}
+
+.link-1 {
+  display: block;
+  color: #2e22da;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+.link-1:hover {
+  color: #444484;
+}
+
+.none {
+  display: none !important;
+}
+
+::-webkit-scrollbar {
+  width: 3px; /* Ширина полосы прокрутки */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Цвет фона полосы прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Цвет бегунка */
+  border-radius: 10px; /* Закругленные углы бегунка */
+}
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+a, a:link, a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+  /* display: inline-block; */
+}
+
+a:hover {
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+/* Common */
+aside, nav, footer, header, section, main {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul, ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+input, textarea, button, select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button, input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+:root {
+  --radial-bg: radial-gradient( 50% 50% at 50% 50%, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100% );
+  --linear-bg: linear-gradient( 181deg, rgba(0, 0, 0, 0.20) 0.91%, rgba(255, 255, 255, 0.00) 116.71%, rgba(255, 255, 255, 0.00) 116.72% );
+}
+
+/* Blocks */
+.footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #222e84;
+  color: #fff;
+  font-weight: 500;
+}
+
+.footer__top {
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+@media screen and (max-width: 768px) {
+  .footer__top {
+    grid-template-columns: 1fr;
+    gap: 40px 30px;
+  }
+}
+
+.footer__nav-list {
+  list-style: none;
+  display: grid;
+  gap: 15px;
+}
+
+.footer__socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 15px;
+  column-gap: 10px;
+}
+
+.footer a {
+  color: #fff;
+}
+
+.footer__nav-list a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.footer a:hover {
+  color: #cfcece;
+}
+
+.footer__contacts {
+  display: grid;
+  gap: 20px;
+}
+
+.footer__bottom {
+  padding-top: 40px;
+  border-top: 1px solid #fff;
+}/*# sourceMappingURL=main.css.map */
