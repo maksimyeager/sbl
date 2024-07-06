@@ -10,12 +10,22 @@
     padding-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 50px;
 
     @media screen and (max-width: 768px) {
             grid-template-columns: 1fr;
             gap: 40px 30px;
     }
+}
+
+.footer__logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__logo img{
+    width: 300px;
 }
 
 .footer__nav-list{
@@ -28,8 +38,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    -moz-column-gap: 15px;
-    column-gap: 10px;
+    column-gap: 15px;
 }
 
 .footer a{
@@ -54,4 +63,8 @@
 .footer__bottom{
     padding-top: 40px;
     border-top: 1px solid #fff;
+
+    @media (max-width: 576px) {
+        text-align: center;
+    }
 }

@@ -1,16 +1,12 @@
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 const Breadcrumb = () => {
+  const { t } = useTranslation("global");
   const location = useLocation();
   const pathnames = location.pathname.split('/').filter(x => x);
-
-  const routeNames = {
-    'about-us': 'О нас',
-    'our-projects': 'Наши проекты',
-    'contacts': 'Контакты'
-  };
 
   return (
     <nav>
@@ -24,7 +20,7 @@ const Breadcrumb = () => {
           const to = `/${pathnames.slice(0, index + 1).join('/')}`;
           return (
             <li key={to} className="last">
-              <span>{routeNames[value] || value.charAt(0).toUpperCase() + value.slice(1)}</span>
+              <span>{t(`breadcrumbs.${value}`)}</span>
             </li>
           );
         })}

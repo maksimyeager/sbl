@@ -1,0 +1,96 @@
+{
+    "navbar": {
+        "about-us": "About Us",
+        "our-services": "Our Services",
+        "our-projects": "Our Projects",
+        "contacts": "Contacts"
+    },
+    "mobile-navbar": {
+        "about-us": "About Us",
+        "our-services": "Our Services",
+        "our-projects": "Our Projects",
+        "contacts": "Contacts"
+    },
+    "breadcrumbs": {
+        "about-us": "About Us",
+        "our-services": "Our Services",
+        "our-projects": "Our Projects",
+        "contacts": "Contacts"
+    },
+    "home": {
+        "subtitle": "Your reliable partner in offshore services",
+        "welcome": "SBL Offshore Services Ltd is a leading marine and offshore engineering company. We offer a wide range of services including shipbuilding, mechanical repairs and piping installations.",
+        "projects-title": "Our projects",
+        "projects": " is proud of many successfully completed projects in the field of marine and offshore engineering. Our team of professionals provides high quality and innovative solutions to meet the needs of our customers around the world. We understand that each task is unique and requires an individual approach, so we actively collaborate with our clients at every stage of the project, from initial planning to completion and subsequent support. Our company uses advanced technologies and working methods, which allows us to successfully implement projects of any complexity and scale.",
+        "view-more": "View more"
+    },
+    "card": {
+        "our-services": "Our Services",
+        "service-1": "Marine & Industrial Fabrication Works",
+        "service-2": "Metal Works",
+        "service-3": "Office Container & Refurbishment of Old Units",
+        "service-4": "Design and Simulation",
+        "service-5": "Engineering Solution",
+        "why-us": "Why us?",
+        "why-text": "We specialize in a wide range of services including metal fabrication, pipe rack assembly and installation, blasting and painting, offshore and onshore equipment modifications and installations, design and engineering solutions, and the provision of skilled labor.",
+        "contacts": "Contacts",
+        "address": "Address: Mangistau Region, Aktau City, Industrial Zone, Rekon Base, warehouse No. 24/4"
+    },
+    "form": {
+        "title": "Do you need our services? Write to us via the feedback form",
+        "name": "Your name",
+        "email": "Your e-mail",
+        "message": "Message",
+        "btn": "Submit"
+    },
+    "footer": {
+        "about-us": "About Us",
+        "our-services": "Our Services",
+        "our-projects": "Our Projects",
+        "contacts": "Contacts",
+        "address": "Address: Mangistau Region, Aktau City, Industrial Zone, Rekon Base, warehouse No. 24/4",
+        "operating-mode": "Operating mode:"
+    },
+    "about-us": {
+        "title": "About Us",
+        "p-1": " is a leading marine and offshore engineering company based in Aktau, Kazakhstan. We offer a wide range of services including shipbuilding, mechanical repairs and piping installations. Since our founding, we have established ourselves as a reliable partner providing high quality and innovative solutions. Our team of professionals has extensive experience and is committed to achieving excellence in every project.",
+        "p-2": "We are proud of long-term relationships with our clients, based on mutual trust and mutually beneficial cooperation. Our goal is to provide customers with the most efficient and innovative solutions in the field of marine and industrial engineering.",
+        "p-3": "We specialize in a wide range of services including metal fabrication, pipe rack assembly and installation, blasting and painting, offshore and onshore equipment modifications and installations, design and engineering solutions, and the provision of skilled labor.",
+        "p-4": "We strive to be a leader in our industry by ensuring safety, quality and reliability in every project. Our team of professionals is ready for challenges of any complexity, guaranteeing the successful completion of each stage of the project.",
+        "p-5": "We are proud of our highly qualified team of specialists, each of whom is an expert in their field. We invest in the development of our employees to provide our clients with only the best solutions and service.",
+        "p-6": "We are always open to new projects and cooperation opportunities. Contact us today to find out more about how we can help you achieve your goals."
+    },
+    "our-services": {
+        "title": "Our Services",
+        "services-title": "We offer services in the field of:",
+        "service-1": "Marine & Industrial Fabrication Works",
+        "service-2": "Metal Works",
+        "service-3": "Out-Fitting Works",
+        "service-4": "Blasting & Painting",
+        "service-5": "Office Container & Refurbishment of Old Units",
+        "service-6": "Supply of certified offshore containers in accordance to DNV 2.7-1/EN12079",
+        "service-7": "Offshore / Onshore Modification and Installation",
+        "service-8": "Scaffolding",
+        "service-9": "Site Surveys and Solutions",
+        "service-10": "Skilled Labour Solutions",
+        "service-11": "Piping works",
+        "service-12": "Design and Simulation",
+        "service-13": "Engineering Solution",
+        "service-14": "Fabrication Drawings"
+    },
+    "our-projects": {
+        "title": "Our Projects",
+        "customer": "Customer: ",
+        "year": "Year: ",
+        "work-undertaken": "Work undertaken: ",
+        "location": "Location: "
+    },
+    "contacts": {
+        "title": "Contacts",
+        "address": "Address: Mangistau Region, Aktau City, Industrial Zone, Rekon Base, warehouse No. 24/4",
+        "operating-mode": "Operating mode:",
+        "mon-fri": "MON - FRI: ",
+        "sat": "SAT: ",
+        "location": "Location:"
+    }
+}

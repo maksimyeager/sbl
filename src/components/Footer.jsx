@@ -1,46 +1,53 @@
 import { Link } from "react-router-dom";
-import { FaFax, FaInstagram, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
+
+import { FaPhoneAlt, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
+import SBL_Full_Logo from "./../assets/sbl-full-logo.png";
 
 const Footer = () => {
+    const { t } = useTranslation("global");
+
     return (
         <footer className="footer">
             <div className="container">
                 <div className="footer__top">
                     <div className="footer__logo">
-                        
+                        <Link to={"/"}>
+                            <img src={SBL_Full_Logo} alt="SBL Logo" />
+                        </Link>
                     </div>
                     <div className="footer__nav">
                         <nav>
                             <ul className="footer__nav-list">
                                 <li>
-                                    <Link to={"/"}></Link>
+                                    <Link to={"/"}>{t("footer.about-us")}</Link>
                                 </li>
                                 <li>
-                                    <Link to={"/"}>О нас</Link>
+                                    <Link to={"/our-services"}>
+                                        {t("footer.our-services")}
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to={"/"}>Наши проекты</Link>
+                                    <Link to={"/our-projects"}>
+                                        {t("footer.our-projects")}
+                                    </Link>
                                 </li>
                                 <li>
-                                    <Link to={"/"}>Контакты</Link>
+                                    <Link to={"/contacts"}>
+                                        {t("footer.contacts")}
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div className="footer__contacts">
                         <ul className="footer__nav-list">
-                            <li>
-                                Адресс: Мангистауская Область, Город Актау,
-                                Промзона, База Рекон, склаж №24/4
-                            </li>
-                            <li>
-                                Телефон:{" "}
-                                <a href="tel:+77292544326">+7(7292) 544 326</a>
-                            </li>
-                            <li>Время работы: 8:00 - 17:00</li>
+                            <li>{t("footer.address")}</li>
+                            <li>{t("footer.operating-mode")}8:00 - 17:00</li>
                             <li>
                                 E-mail:{" "}
-                                <a href="mailto:dima@sbl.com.sg">
+                                <a href="mailto:dima@sbl.com.sg" target="_blank">
                                     dima@sbl.com.sg
                                 </a>
                             </li>
@@ -52,13 +59,13 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="https://wa.me/+77056554748">
-                                    <FaWhatsapp size={"24px"} />
+                                <a href="https://wa.me/+77056554748" target="_blank">
+                                    <FaWhatsapp size={"26px"} />
                                 </a>
                             </li>
                             <li>
-                                <a href="hhtps://instagram.com">
-                                    <FaInstagram size={"24px"} />
+                                <a href="https://www.instagram.com/sbl_aktau/" target="_blank" >
+                                    <FaInstagram size={"26px"} />
                                 </a>
                             </li>
                         </ul>

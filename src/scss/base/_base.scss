@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-html,
-body {
-    scroll-behavior: smooth;
-}
+// html,
+// body {
+//     scroll-behavior: smooth;
+// }
 
 * {
     font-family: "Open Sans", sans-serif;
@@ -13,6 +13,10 @@ body {
     max-width: 1110px;
     padding: 0 15px;
     margin: 0 auto;
+
+    &--small{
+        max-width: 960px;
+    }
 }
 
 .title-1 {
@@ -37,6 +41,7 @@ body {
 .title-2{
     font-size: clamp(1.25rem, 0.286rem + 2.679vw, 2rem);
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .no-scroll {
@@ -48,7 +53,7 @@ body {
 }
 
 .link-1{
-    display: block;
+    display: inline-block;
     color: #2e22da;
     font-size: 16px;
     text-decoration: none;
@@ -58,6 +63,34 @@ body {
 
 .link-1:hover {
     color: #444484;
+}
+
+.btn-1{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 12px;
+    background-color: #2e22da;
+    border: none;
+    transition: all 0.5s;
+}
+
+.btn-1:hover{
+    background-color: #222e84;
+}
+
+.btn-2{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    padding: 8px 12px;
+    border: 1px solid #fff;
+    transition: all 0.5s;
+}
+
+.btn-2:hover{
+    background: #fff;
+    color: #222e84;
 }
 
 .none {

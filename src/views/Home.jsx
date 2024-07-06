@@ -1,50 +1,92 @@
 import { Link } from "react-router-dom";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import FeedbackForm from "../components/FeedbackForm";
+import { FaPhoneAlt, FaFax, FaTasks } from "react-icons/fa";
+import { FaGear } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
-library.add(faPhone);
+import FeedbackForm from "../components/FeedbackForm";
+import { useTranslation } from "react-i18next";
 
 const Home = () => {
+    const { t } = useTranslation("global");
+
     return (
         <>
+            <div className="home-welcome">
+                <div className="container container--small">
+                    <h1 className="home-title">SBL Offshore Services Ltd</h1>
+                    <p className="home-subtitle">{t("home.subtitle")}</p>
+                    <p className="home-description">{t("home.welcome")}</p>
+                </div>
+            </div>
             <div className="home-project">
                 <div className="container">
-                    <h3 className="title-1">О нас</h3>
+                    <h2>{t("home.projects-title")}</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Exercitationem id, sit illo, dolores explicabo
-                        esse molestias quas culpa non harum velit aspernatur
-                        laborum quo itaque assumenda suscipit? Molestiae, minima
-                        impedit. Lorem ipsum dolor sit amet consectetur,
-                        adipisicing elit. Exercitationem id, sit illo, dolores
-                        explicabo esse molestias quas culpa non harum velit
-                        aspernatur laborum quo itaque assumenda suscipit?
-                        Molestiae, minima impedit...
+                        <strong>SBL Offshore Services Ltd</strong>{" "}
+                        {t("home.projects")}
                     </p>
-                    <Link to={"/about-us"} className="link-1">
-                        Читать больше <span></span>
+                    <Link to={"/our-projects"} className="btn-1">
+                        {t("home.view-more")}
                     </Link>
                 </div>
             </div>
             <div className="home-cards">
                 <div className="card card-1">
-                    <h2>Card Title</h2>
+                    <h2>
+                        <FaGear /> {t("card.our-services")}
+                    </h2>
+                    <ul>
+                        <li>{t("card.service-1")}</li>
+                        <li>{t("card.service-2")}</li>
+                        <li>{t("card.service-3")}</li>
+                        <li>{t("card.service-4")}</li>
+                        <li>{t("card.service-5")}</li>
+                    </ul>
+                    <a href="/our-services" className="btn-2">
+                        {t("home.view-more")}
+                    </a>
                 </div>
                 <div className="card card-2">
-                    <h2>Card Title</h2>
+                    <h2>
+                        <FaTasks /> {t("card.why-us")}
+                    </h2>
+                    <p>
+                        {t("card.why-text")}
+                    </p>
+                    <a href="/about-us" className="btn-2">
+                        {t("home.view-more")}
+                    </a>
                 </div>
                 <div className="card card-3">
-                    <h2><FontAwesomeIcon icon={faPhone} size="sm" color="#222e84"/> Контакты</h2>
-                    <p>Адресс:  Мангистауская Область, Город Актау, Промзона, База Рекон, склаж №24/4</p>
+                    <h2>
+                        <FaPhoneAlt /> {t("card.contacts")}
+                    </h2>
+                    <p>
+                        {t("card.address")}
+                    </p>
+                    <ul>
+                        <li>
+                            <FaPhoneAlt /> +7 (7292) 544 326
+                        </li>
+                        <li>
+                            <FaFax /> +7 (7292) 544 327
+                        </li>
+                        <li>
+                            <MdEmail />{" "}
+                            <Link to="mailto:dima@sbl.com.sg">
+                                dima@sbl.com.sg
+                            </Link>
+                        </li>
+                    </ul>
+                    <a href="/contacts" className="btn-2">
+                        {t("home.view-more")}
+                    </a>
                 </div>
             </div>
             <div className="home-form">
-                <FeedbackForm/>
+                <FeedbackForm />
             </div>
-            
         </>
     );
 };

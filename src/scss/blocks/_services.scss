@@ -1,0 +1,36 @@
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-bottom: 40px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.services__list{
+    display: grid;
+    gap: 10px;
+}
+
+.services ul > li{
+    position: relative;
+    margin-bottom: 5px;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.services ul > li::before{
+    content: "\f058";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 3px;
+    left: 0;
+    color: #222e84;
+    // background-color: ;
+    // border-radius: 50%;
+    padding: 1px;
+}
