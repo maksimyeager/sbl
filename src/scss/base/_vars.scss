@@ -1,5 +1,12 @@
 :root {
+    
+    // Gradient
     --radial-bg: radial-gradient( 50% 50% at 50% 50%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 100% );
     --linear-bg: linear-gradient( 181deg, rgba(0, 0, 0, 0.20) 0.91%, rgba(255, 255, 255, 0.00) 116.71%, rgba(255, 255, 255, 0.00) 116.72% );
+
+    // Header
+    --tw-ring-offset-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    --tw-ring-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --tw-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
 

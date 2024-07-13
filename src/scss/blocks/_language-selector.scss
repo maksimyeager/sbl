@@ -1,0 +1,41 @@
+.language-selector {
+    position: relative;
+    display: inline-block;
+}
+
+.language-toggle {
+    color: #222e84;
+    /* padding: 10px 20px; */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.language-menu {
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    color: #222e84;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.language-menu li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.language-menu li:hover {
+    background-color: #f1f1f1;
+}

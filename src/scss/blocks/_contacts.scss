@@ -1,0 +1,33 @@
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.contacts a {
+    color: #2e22da;
+    transition: all 0.5s;
+}
+
+.contacts a:hover {
+    color: #337ab7;
+}
+
+.contact,
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contacts .address p {
+    margin-bottom: 10px;
+}

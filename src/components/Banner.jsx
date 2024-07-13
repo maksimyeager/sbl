@@ -1,9 +1,13 @@
 import ImageSwiper from "./ImageSwiper";
 
+import image1 from "./../assets/about-us.jpg";
+import image2 from "./../assets/our-projects.jpg";
+import image3 from "./../assets/our-services.jpg";
+
 const images = [
-    { src: '/src/assets/about-us.jpg', alt: 'About Us' },
-    { src: '/src/assets/our-projects.jpg', alt: 'Our Project' },
-    { src: '/src/assets/our-services.jpg', alt: 'Our Services' }
+    { src: image1, alt: 'Image 1' },
+    { src: image2, alt: 'Image 2' },
+    { src: image3, alt: 'Image 3' }
   ];
 
 const Banner = () => {

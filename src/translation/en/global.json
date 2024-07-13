@@ -40,6 +40,7 @@
         "title": "Do you need our services? Write to us via the feedback form",
         "name": "Your name",
         "email": "Your e-mail",
+        "phone": "Phone number",
         "message": "Message",
         "btn": "Submit"
     },
@@ -49,7 +50,7 @@
         "our-projects": "Our Projects",
         "contacts": "Contacts",
         "address": "Address: Mangistau Region, Aktau City, Industrial Zone, Rekon Base, warehouse No. 24/4",
-        "operating-mode": "Operating mode:"
+        "operating-mode": "Operating mode: "
     },
     "about-us": {
         "title": "About Us",
@@ -92,5 +93,17 @@
         "mon-fri": "MON - FRI: ",
         "sat": "SAT: ",
         "location": "Location:"
+    },
+    "projects": {
+        "title1": "Tengiz and Kashagan",
+        "customer1": "Kazakhstan government",
+        "year1": 2016,
+        "workUndertaken1": "Fabrication, Maintenance & Installation work",
+        "location1": "Kazakhstan, Atyrau",
+        "title2": "Dunga Field Development Maersk Oil",
+        "customer2": "Maersk Oil",
+        "year2": 2012,
+        "workUndertaken2": "Fabrication & Installation of pipe rack and pipe support",
+        "location2": "Kazakhstan, Aktau"
     }
 }

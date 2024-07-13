@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import SBL_Full_Logo from "./../assets/sbl-full.jpg";
+import SBL_Full_Logo from "./../assets/sbl-logo.png";
 import Navbar from "./Navbar";
 
 import openNavSvg from "./../assets/icons/mobile-nav.svg";

@@ -3,7 +3,6 @@ import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
 import "./css/main.css";
-import "./index.css";
 
 import i18next from "i18next";
 import global_en from "./translation/en/global.json";

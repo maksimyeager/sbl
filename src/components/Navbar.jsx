@@ -9,14 +9,14 @@ const Navbar = () => {
         <nav className="nav">
             <ul className="nav-menu">
                 <li className="nav-menu__item">
-                    <NavLink to="/about-us" className="nav-menu__link link-1">
+                    <NavLink to="/about-us" className="nav-menu__link">
                         {t("navbar.about-us")}
                     </NavLink>
                 </li>
                 <li className="nav-menu__item">
                     <NavLink
                         to="/our-services"
-                        className="nav-menu__link link-1"
+                        className="nav-menu__link"
                     >
                         {t("navbar.our-services")}
                     </NavLink>
@@ -24,13 +24,13 @@ const Navbar = () => {
                 <li className="nav-menu__item">
                     <NavLink
                         to="/our-projects"
-                        className="nav-menu__link link-1"
+                        className="nav-menu__link"
                     >
                         {t("navbar.our-projects")}
                     </NavLink>
                 </li>
                 <li className="nav-menu__item">
-                    <NavLink to="/contacts" className="nav-menu__link link-1">
+                    <NavLink to="/contacts" className="nav-menu__link">
                         {t("navbar.contacts")}
                     </NavLink>
                 </li>

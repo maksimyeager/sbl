@@ -5,5 +5,20 @@
 @import "./base/vars";
 
 /* Blocks */
-@import "./blocks/services";
+@import "./blocks/header";
+@import "./blocks/nav";
+@import "./blocks/language-selector";
+@import "./blocks/mobile-nav";
+@import "./blocks/banner";
+@import "./blocks/breadcrumb";
+@import "./blocks/card";
+@import "./blocks/form";
+@import "./blocks/map";
 @import "./blocks/footer";
+
+/* Pages */
+@import "./blocks/home";
+@import "./blocks/about-us";
+@import "./blocks/projects";
+@import "./blocks/services";
+@import "./blocks/contacts";

@@ -1,0 +1,28 @@
+.projects{
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+    @media (max-width: 576px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.project-list > li {
+    display: grid;
+    gap: 5px;
+}
+
+.project-title {
+    font-size: clamp(1.25rem, 0.929rem + 0.893vw, 1.5rem);
+    font-weight: 700;
+}
+
+.project-list > li p {
+    font-weight: 500;
+}

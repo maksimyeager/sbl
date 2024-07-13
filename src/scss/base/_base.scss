@@ -6,7 +6,8 @@
 // }
 
 * {
-    font-family: "Open Sans", sans-serif;
+    // font-family: "Open Sans", sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -41,7 +42,6 @@
 .title-2{
     font-size: clamp(1.25rem, 0.286rem + 2.679vw, 2rem);
     font-weight: 700;
-    margin-bottom: 20px;
 }
 
 .no-scroll {
@@ -50,19 +50,6 @@
     @media (min-width: 576px) {
         overflow:scroll;
     }
-}
-
-.link-1{
-    display: inline-block;
-    color: #2e22da;
-    font-size: 16px;
-    text-decoration: none;
-    transition: all 0.5s;
-    font-weight: 600;
-}
-
-.link-1:hover {
-    color: #444484;
 }
 
 .btn-1{
@@ -98,7 +85,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 3px; /* Ширина полосы прокрутки */
+    width: 10px; /* Ширина полосы прокрутки */
 }
 
 ::-webkit-scrollbar-track {

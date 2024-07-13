@@ -1,0 +1,79 @@
+.home-welcome {
+    width: 100%;
+    background-image: url("./../assets/home1.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.home-welcome .home-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: px;
+
+    @media (max-width: 768px) {
+        font-size: 32px;
+    }
+}
+
+.home-welcome .home-subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+        font-size: 28px;
+    }
+}
+
+.home-welcome .home-description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.home-welcome .home-link {
+    display: block;
+    color: #2e22da;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.home-project {
+    padding: 40px 0;
+    font-weight: 500;
+}
+
+.home-project h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.home-project p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 500;
+
+    strong {
+        font-size: 18px;
+    }
+}
+
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    @media (max-width: 990px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.home-form {
+    padding: 40px 0 0;
+}

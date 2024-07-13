@@ -43,28 +43,24 @@ const Home = () => {
                         <li>{t("card.service-4")}</li>
                         <li>{t("card.service-5")}</li>
                     </ul>
-                    <a href="/our-services" className="btn-2">
+                    <Link to="/our-services" className="btn-2">
                         {t("home.view-more")}
-                    </a>
+                    </Link>
                 </div>
                 <div className="card card-2">
                     <h2>
                         <FaTasks /> {t("card.why-us")}
                     </h2>
-                    <p>
-                        {t("card.why-text")}
-                    </p>
-                    <a href="/about-us" className="btn-2">
+                    <p>{t("card.why-text")}</p>
+                    <Link to="/about-us" className="btn-2">
                         {t("home.view-more")}
-                    </a>
+                    </Link>
                 </div>
                 <div className="card card-3">
                     <h2>
                         <FaPhoneAlt /> {t("card.contacts")}
                     </h2>
-                    <p>
-                        {t("card.address")}
-                    </p>
+                    <p>{t("card.address")}</p>
                     <ul>
                         <li>
                             <FaPhoneAlt /> +7 (7292) 544 326
@@ -79,9 +75,9 @@ const Home = () => {
                             </Link>
                         </li>
                     </ul>
-                    <a href="/contacts" className="btn-2">
+                    <Link to="/contacts" className="btn-2">
                         {t("home.view-more")}
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="home-form">

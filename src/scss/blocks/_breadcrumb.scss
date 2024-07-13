@@ -1,0 +1,28 @@
+.breadcrumb {
+    margin: 20px 0 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.breadcrumb li {
+    position: relative;
+    margin-right: 30px;
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.breadcrumb .first::after {
+    content: ">>";
+    position: absolute;
+    right: -24px;
+    top: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
