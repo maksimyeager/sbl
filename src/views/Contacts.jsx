@@ -19,20 +19,20 @@ const Contacts = () => {
                     <p>{t("contacts.sat")}8:00 - 12:00</p>
                 </div>
                 <div className="numbers">
-                    <div className="number" title="Позвонить">
+                    <div className="number" title={t("contacts.call-link-title")}>
                         <a href="tel:+77292544326">
                             <FaPhoneAlt size={"20px"} />
                         </a>
                         <a href="tel:+77292544326">+7 (7292) 544 326</a>
                     </div>
-                    <div className="number" title="Позвонить">
+                    <div className="number" title={t("contacts.call-link-title")}>
                         <a href="tel:+77292544327">
                             <FaFax size={"20px"} />
                         </a>
                         <a href="tel:+77292544326">+7 (7292) 544 327</a>
                     </div>
                     <div className="number">
-                        <a href="tel:+77017656304" title="Позвонить">
+                        <a href="tel:+77017656304" title={t("contacts.call-link-title")}>
                             <FaPhoneAlt size={"20px"} />
                         </a>
                         <a href="https://wa.me/+77056554748" title="WhatsApp" target="_blank">
@@ -41,7 +41,7 @@ const Contacts = () => {
                         <a href="tel:+77056554748">+7 (705) 655 47 48</a>
                     </div>
                     <div className="number">
-                        <a href="tel:+77773952834" title="Позвонить">
+                        <a href="tel:+77773952834" title={t("contacts.call-link-title")}>
                             <FaPhoneAlt size={"20px"} />
                         </a>
                         <a href="https://wa.me/+77773952834" title="WhatsApp" target="_blank">

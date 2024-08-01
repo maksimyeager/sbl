@@ -22,6 +22,7 @@
 
 .title-1 {
     position: relative;
+    color: #000;
     font-size: clamp(1.5rem, 0.536rem + 2.679vw, 2.25rem);
     font-weight: 700;
     margin-bottom: 30px;
@@ -40,6 +41,7 @@
 }
 
 .title-2{
+    color: #000;
     font-size: clamp(1.25rem, 0.286rem + 2.679vw, 2rem);
     font-weight: 700;
 }
@@ -85,7 +87,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 10px; /* Ширина полосы прокрутки */
+    width: 8px; /* Ширина полосы прокрутки */
 }
 
 ::-webkit-scrollbar-track {
@@ -94,5 +96,4 @@
 
 ::-webkit-scrollbar-thumb {
     background: #888; /* Цвет бегунка */
-    border-radius: 10px; /* Закругленные углы бегунка */
 }

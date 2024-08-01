@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import MobileNavbar from "../components/MobileNavbar";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
+import ModalContacts from "../components/ModalContacts";
 
 const Layout = () => {
     useEffect(() => {
@@ -12,11 +13,12 @@ const Layout = () => {
     return (
         <>
             <Header />
-            <MobileNavbar/>
+            <MobileNavbar />
             <main className="main">
                 <Banner />
                 <Outlet />
             </main>
+            <ModalContacts />
             <Footer />
         </>
     );

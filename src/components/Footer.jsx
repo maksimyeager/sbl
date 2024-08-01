@@ -8,6 +8,13 @@ import logo from "./../assets/logo/logo-white.png";
 const Footer = () => {
     const { t } = useTranslation("global");
 
+    const openModal = () => {
+        const modal = document.querySelector(".modal")
+        const modalOverlay = document.querySelector(".modal-overlay");
+        modal.classList.add("modal--open")
+        modalOverlay.classList.add("modal-overlay--open")
+    }
+
     return (
         <footer className="footer">
             <div className="container">
@@ -54,7 +61,7 @@ const Footer = () => {
                         </ul>
                         <ul className="footer__socials">
                             <li>
-                                <a href="tel:+12345678">
+                                <a title={t("footer.call-link-title")} onClick={openModal}>
                                     <FaPhoneAlt size={"24px"} />
                                 </a>
                             </li>

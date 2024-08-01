@@ -1,0 +1,52 @@
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-overlay--open{
+    display: flex;
+}
+
+.modal {
+    display: none;
+    background: white;
+    padding: 20px;
+    max-width: 420px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: #000;
+
+}
+
+.modal--open{
+    display: block;
+}
+
+.modal__title{
+    text-align: center;
+}
+
+.modal__title h2{
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.close-button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: #2e22da;
+
+}

@@ -50,7 +50,8 @@
         "our-projects": "Our Projects",
         "contacts": "Contacts",
         "address": "Address: Mangistau Region, Aktau City, Industrial Zone, Rekon Base, warehouse No. 24/4",
-        "operating-mode": "Operating mode: "
+        "operating-mode": "Operating mode: ",
+        "call-link-title": "Call"
     },
     "about-us": {
         "title": "About Us",
@@ -92,7 +93,8 @@
         "operating-mode": "Operating mode:",
         "mon-fri": "MON - FRI: ",
         "sat": "SAT: ",
-        "location": "Location:"
+        "location": "Location:",
+        "call-link-title": "Call"
     },
     "projects": {
         "title1": "Tengiz and Kashagan",
