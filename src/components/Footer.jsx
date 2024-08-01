@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { FaPhoneAlt, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
-import SBL_Full_Logo from "./../assets/sbl-full-logo.png";
+import logo from "./../assets/logo/logo-white.png";
 
 const Footer = () => {
     const { t } = useTranslation("global");
@@ -14,14 +14,14 @@ const Footer = () => {
                 <div className="footer__top">
                     <div className="footer__logo">
                         <Link to={"/"}>
-                            <img src={SBL_Full_Logo} alt="SBL Logo" />
+                            <img src={logo} alt="SBL Logo" />
                         </Link>
                     </div>
                     <div className="footer__nav">
                         <nav>
                             <ul className="footer__nav-list">
                                 <li>
-                                    <Link to={"/"}>{t("footer.about-us")}</Link>
+                                    <Link to={"/about-us"}>{t("footer.about-us")}</Link>
                                 </li>
                                 <li>
                                     <Link to={"/our-services"}>

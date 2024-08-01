@@ -1,8 +1,8 @@
 import { useTranslation } from "react-i18next";
 
 import Breadcrumb from "../components/Breadcrumb";
-import project1 from "./../assets/4-1.jpg";
-import project2 from "./../assets/5-1.jpg";
+import project1 from "./../assets/projects/project-1.jpg";
+import project2 from "./../assets/projects/project-2.jpg";
 
 const projects = [
     {

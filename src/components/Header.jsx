@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
-import SBL_Full_Logo from "./../assets/sbl-logo.png";
+import logo from "./../assets/logo/logo.png";
 import Navbar from "./Navbar";
 
 import openNavSvg from "./../assets/icons/mobile-nav.svg";
@@ -92,7 +92,7 @@ const Header = () => {
                         <div className="logo">
                             <Link to={"/"}></Link>
                             <div className="logo__img">
-                                <img src={SBL_Full_Logo} alt="SBL_LOGO" />
+                                <img src={logo} alt="SBL_LOGO" />
                             </div>
                         </div>
                         <div className="header__nav">

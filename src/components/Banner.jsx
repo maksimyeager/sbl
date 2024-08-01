@@ -1,8 +1,8 @@
 import ImageSwiper from "./ImageSwiper";
 
-import image1 from "./../assets/about-us.jpg";
-import image2 from "./../assets/our-projects.jpg";
-import image3 from "./../assets/our-services.jpg";
+import image1 from "./../assets/banner/image-1.jpg";
+import image2 from "./../assets/banner/image-2.jpg";
+import image3 from "./../assets/banner/image-3.jpg";
 
 const images = [
     { src: image1, alt: 'Image 1' },

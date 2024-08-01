@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import servicesImage from "./../assets/services.jpg";
+import servicesImage from "./../assets/person.png";
 
 import Breadcrumb from "../components/Breadcrumb";
 
