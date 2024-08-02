@@ -19,14 +19,14 @@ const Contacts = () => {
                     <p>{t("contacts.sat")}8:00 - 12:00</p>
                 </div>
                 <div className="numbers">
-                    <div className="number" title={t("contacts.call-link-title")}>
-                        <a href="tel:+77292544326">
+                    <div className="number">
+                        <a href="tel:+77292544326" title={t("contacts.call-link-title")}>
                             <FaPhoneAlt size={"20px"} />
                         </a>
                         <a href="tel:+77292544326">+7 (7292) 544 326</a>
                     </div>
-                    <div className="number" title={t("contacts.call-link-title")}>
-                        <a href="tel:+77292544327">
+                    <div className="number">
+                        <a href="tel:+77292544327" title={t("contacts.call-link-title")}>
                             <FaFax size={"20px"} />
                         </a>
                         <a href="tel:+77292544326">+7 (7292) 544 327</a>

@@ -12,7 +12,7 @@ const Footer = () => {
         const modal = document.querySelector(".modal")
         const modalOverlay = document.querySelector(".modal-overlay");
         modal.classList.add("modal--open")
-        modalOverlay.classList.add("modal-overlay--open")
+        modalOverlay.classList.add("modal-overlay--open");
     }
 
     return (

@@ -11,7 +11,7 @@
     z-index: 1000;
 }
 
-.modal-overlay--open{
+.modal-overlay--open {
     display: flex;
 }
 
@@ -24,29 +24,30 @@
     overflow: hidden;
     position: relative;
     color: #000;
-
 }
 
-.modal--open{
+.modal--open {
     display: block;
 }
 
-.modal__title{
-    text-align: center;
+.modal__top {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.modal__title h2{
+.modal h2 {
     color: #000;
     font-weight: 600;
     font-size: 24px;
 }
 
-.close-button{
+.close-button {
     position: absolute;
     top: 0;
     right: 0;
     width: 30px;
     height: 30px;
-    background-color: #2e22da;
-
+    background-color: #222e84;
 }

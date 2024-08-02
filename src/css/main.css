@@ -717,11 +717,14 @@ legend {
   display: block;
 }
 
-.modal__title {
-  text-align: center;
+.modal__top {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.modal__title h2 {
+.modal h2 {
   color: #000;
   font-weight: 600;
   font-size: 24px;
@@ -733,7 +736,7 @@ legend {
   right: 0;
   width: 30px;
   height: 30px;
-  background-color: #2e22da;
+  background-color: #222e84;
 }
 
 /* Pages */
