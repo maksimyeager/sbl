@@ -20,9 +20,9 @@ const LanguageSelector = () => {
 
   return (
     <div className="language-selector">
-      <a className="language-toggle" onClick={toggleDropdown}>
+      <div className="language-toggle" onClick={toggleDropdown}>
         <FaGlobeAsia />{" "}{i18n.language.toUpperCase()}
-      </a>
+      </div>
       {isOpen && (
         <ul className="language-menu">
           <li onClick={() => changeLanguage('ru')}>RU</li>
