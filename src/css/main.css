@@ -6,7 +6,7 @@
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1148px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -54,13 +54,13 @@
   color: #fff;
   font-weight: 500;
   padding: 8px 12px;
-  background-color: #2e22da;
+  background-color: #222e84;
   border: none;
   transition: all 0.5s;
 }
 
 .btn-1:hover {
-  background-color: #222e84;
+  background-color: #4d61c4;
 }
 
 .btn-2 {
@@ -266,14 +266,14 @@ legend {
 
 .nav-menu__link {
   display: inline-block;
-  color: #2e22da;
+  color: #2e2284;
   font-size: 16px;
   text-decoration: none;
   transition: all 0.5s;
   font-weight: 600;
 }
 .nav-menu__link:hover {
-  color: #444484;
+  color: #4d61c4;
 }
 
 .language-selector {
@@ -414,7 +414,7 @@ legend {
 
 .breadcrumb li a {
   text-decoration: none;
-  color: #007bff;
+  color: #222e84;
   font-size: 14px;
 }
 
@@ -479,7 +479,7 @@ legend {
   content: "\f00c";
   font-family: "FontAwesome";
   position: absolute;
-  top: 3px;
+  top: 0;
   left: 0;
   color: #fff;
   padding: 1px;
@@ -574,7 +574,7 @@ legend {
   transition: all 0.5s;
 }
 .form-btn:hover {
-  background-color: #444484;
+  background-color: #4d61c4;
 }
 
 .map {
@@ -751,13 +751,18 @@ legend {
 }
 
 .home-welcome .home-title {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 700;
   margin-bottom: px;
 }
 @media (max-width: 768px) {
   .home-welcome .home-title {
-    font-size: 32px;
+    font-size: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .home-welcome .home-title {
+    font-size: 36px;
   }
 }
 
@@ -893,13 +898,12 @@ legend {
 }
 
 .services ul > li::before {
-  content: "\f058";
+  content: "\f138";
   font-family: "FontAwesome";
   position: absolute;
-  top: 3px;
+  top: 2px;
   left: 0;
   color: #222e84;
-  padding: 1px;
 }
 
 .contacts {
@@ -911,12 +915,12 @@ legend {
 }
 
 .contacts a {
-  color: #2e22da;
+  color: #222e84;
   transition: all 0.5s;
 }
 
 .contacts a:hover {
-  color: #337ab7;
+  color: #4d61c4;
 }
 
 .contact,

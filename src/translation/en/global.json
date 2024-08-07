@@ -18,8 +18,8 @@
         "contacts": "Contacts"
     },
     "home": {
-        "subtitle": "Your reliable partner in offshore services",
-        "welcome": "SBL Offshore Services Ltd is a leading marine and offshore engineering company. We offer a wide range of services including shipbuilding, mechanical repairs and piping installations.",
+        "subtitle": "Your reliable partner in marine and oil services",
+        "welcome": "SBL Offshore Services Ltd is a leading company in the offshore services industry. We offer a wide range of services, including repairs of ships, marine equipment, pipeline systems, and metal structures.",
         "projects-title": "Our projects",
         "projects": " is proud of many successfully completed projects in the field of marine and offshore engineering. Our team of professionals provides high quality and innovative solutions to meet the needs of our customers around the world. We understand that each task is unique and requires an individual approach, so we actively collaborate with our clients at every stage of the project, from initial planning to completion and subsequent support. Our company uses advanced technologies and working methods, which allows us to successfully implement projects of any complexity and scale.",
         "view-more": "View more"
@@ -65,20 +65,21 @@
     "our-services": {
         "title": "Our Services",
         "services-title": "We offer services in the field of:",
-        "service-1": "Marine & Industrial Fabrication Works",
-        "service-2": "Metal Works",
-        "service-3": "Out-Fitting Works",
-        "service-4": "Blasting & Painting",
-        "service-5": "Office Container & Refurbishment of Old Units",
-        "service-6": "Supply of certified offshore containers in accordance to DNV 2.7-1/EN12079",
-        "service-7": "Offshore / Onshore Modification and Installation",
-        "service-8": "Scaffolding",
-        "service-9": "Site Surveys and Solutions",
-        "service-10": "Skilled Labour Solutions",
-        "service-11": "Piping works",
-        "service-12": "Design and Simulation",
-        "service-13": "Engineering Solution",
-        "service-14": "Fabrication Drawings"
+        "service-1": "Design of welded structures:",
+        "service-2": "Modeling in the SolidWorks program, drawings, load calculations of the structure for strength and much more.",
+        "service-3": "Design and modeling of steel parts.",
+        "service-4": "Marine and industrial work on the manufacture of structures of any complexity.",
+        "service-5": "Metalworking",
+        "service-6": "Installation assembly work",
+        "service-7": "Welding work",
+        "service-8": "Sandblasting, cleaning and painting",
+        "service-9": "Design and production of office, industrial workshop, field containers based on 10f, 20f, 40f containers.",
+        "service-10": "Supply of sea (offshore) containers in accordance with DNV2.7-1 / EN 12079",
+        "service-11": "Installation and assembly of scaffolding",
+        "service-12": "Solution and provision of skilled labor",
+        "service-13": "Works on the design and construction of pipelines",
+        "service-14": "Design and modeling in AutoCAD & SolidWorks",
+        "service-15": "Engineering solutions"
     },
     "our-projects": {
         "title": "Our Projects",
